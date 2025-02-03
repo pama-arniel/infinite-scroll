@@ -68,6 +68,7 @@ async function getPhotos() {
     displayPhotos();
   } catch (error) {
     // catch error here
+    alert("Error encountered when loading photos. Please try again!");
   }
 }
 
